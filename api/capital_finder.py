@@ -1,12 +1,16 @@
-import requests
 from http.server import BaseHTTPRequestHandler
 from urllib import parse
+import requests
 
 class handler(BaseHTTPRequestHandler):
-
+    """
+    A custom request handler that handles GET requests and retrieves information about capitals and countries.
+    """
 
     def do_GET(self):
-
+        """
+        Handles the GET request and sends the appropriate response based on the provided query parameters.
+        """
 
         self.send_response(200)
         self.send_header('Content-type', 'text/plain')
