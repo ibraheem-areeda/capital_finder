@@ -22,6 +22,8 @@ The serverless function handles GET requests for capital and country information
 ### examples
 
 country --> https://capital-finder-ibraheem-areeda.vercel.app/api/capital_finder?country=cuba
+
+
 capital --> https://capital-finder-ibraheem-areeda.vercel.app/api/capital_finder?capital=mosco
 
   
